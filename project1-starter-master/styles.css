@@ -1,7 +1,188 @@
-/* Add your CSS to this file */
+* {
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header .container{
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+header h1 {
+    margin: 0;
+    float: left;
+    font-size: 18px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    float: right;
+}
+
+header li {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+header li a {
+    text-decoration: none;
+    color: #6b7280;
+}
+
+header li a:hover{
+    color: #5A67D8;
+}
+
+/* Overview Hero section styles */
+.overview-hero .container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.overview-hero {
+    background-color: #e2e8f0;
+}
+
+.overview-hero-image img {
+    max-width: 100%;
+    float: left;
+    object-fit: cover;
+}
+
+.overview-hero-text {
+    text-align: left;
+    margin-left: 100px;
+}
+
+/* Cards section styles */
+.learn-about{
+    margin-bottom: 24px;
+}
+.learn-about h2{
+    font-size: 24px;
+    color: #48bb78;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+    
+}
+
+.card {
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px #e2e8f0;
+}
+
+.card img {
+    max-width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.card h3 {
+    margin: 0;
+    color: #48bb78;
+    font-size: 21px;
+}
+
+/* COVID-19 Testing Programme section styles */
+.testing .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testing-desciption{
+    width: 600px;
+
+}
+
+.testing {
+    background-color: #4a5568;
+    color: white;
+    height: 200px;
+}
+
+.cta .btn{
+    background-color: #48bb78;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.stories article{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+
+.stories img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.stories h2, a{
+    color: #5A67D8;
+}
+
+.stories h3{
+    font-size: 18px;
+}
+
+.newsletter{
+    background-color: #48bb78;
+    color: white;
+}
+
+.newsletter .btn{
+    background-color: #5A67D8;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.newsletter form{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.newsletter h3{
+    text-align: center;
+}
+
+.newsletter p{
+    width: 490px;
+}
+.newsletter .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: #4a5568;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+/* Body and container styles */
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container {
